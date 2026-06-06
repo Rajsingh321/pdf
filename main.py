@@ -33,7 +33,7 @@ if uploaded_file:
         max_tokens=512
     )
 
-    st.subheader("🔎 Ask a Question about the PDF")
+    st.subheader("🔎 Ask a Question about the Your PDF")
     query = st.text_input("Enter your question:")
 
     if query:
